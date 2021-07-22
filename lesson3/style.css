@@ -1,0 +1,164 @@
+.wrap {
+    width: 1200px;
+    position: absolute;
+    }
+.up {
+    width: 100%;
+    height: 400px;
+    background-color: midnightblue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.up2 {
+    width: 100%;
+    height: 300px;
+    background-color: midnightblue;
+    display: flex;
+}
+.line {
+    position:relative;
+    top: 100px;
+}
+.down {
+    width: 100%;
+    height: 2300px;
+    background-color: silver;
+   }
+.purple{
+    background: mediumpurple;
+}
+.black{
+    background: black;
+}
+.w20{
+    width: 20px;
+}
+.w100{
+    width: 100px;
+}
+.w200{
+    width: 200px;
+}
+.w300{
+    width: 300px;
+}
+.w400{
+    width: 400px;
+}
+.w700{
+    width: 700px;
+}
+.h20{
+    height: 20px;
+}
+.h100{
+    height: 100px;
+}
+.h200 {
+    height: 200px;
+}
+.radius10{
+    border-radius: 10%
+}
+.radius50{
+    border-radius: 50%
+}
+.mt100{
+    margin-top: 100px;
+}
+.mt200{
+    margin-top: 200px;
+}
+.mrg50{
+    margin: 50px;
+}
+.mrg65{
+    margin: 65px;
+    }
+.mrg5{
+    margin: 5px;
+}
+.part1 {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 120px;
+}
+.part2 {
+    width: 80%;
+    height: 600px;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 125px;
+}
+
+.part3 {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 120px;
+    justify-content: space-evenly;
+}
+
+.part4 {
+    width: 100%;
+    height: 300px;
+    margin-left: 100px;
+    display: flex;
+}
+.father {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+  }
+.left {
+    width: 50%;
+    height: 1000px;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    width: 50%;
+    height: 1000px;
+    margin-top: 300px;
+}
+.smole{
+    width: 40%;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 120px;
+}
+.centre {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+.c_part1 {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+.c_part2 {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
