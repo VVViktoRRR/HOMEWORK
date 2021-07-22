@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="">
+    <title>lesson6js2</title>
+</head>
+<body>
+    <script>
+    // 1. Оголосіть змінні str, num, flag и txt зі значеннями «Привіт», 123, true, «true».
+    // За допомогою typeof переконайтесь, що значення змінних належать типам: string, number и  boolean.
+    let str = 'Привет';
+    let num = 123;
+    let flag = true;
+    let txt = 'true';
+    console.log(typeof str);
+    console.log(typeof num);
+    console.log(typeof flag);
+    console.log(typeof txt);
+    //2. Оголосіть змінні a1, a2, a3, a4, a5. За домогою 3х математичних оператцій отримайте числа:
+    //     34,
+    //     12,
+    //     66,
+    //     90,
+    //     87
+    //     Старайтесь використовувати різні оператори.
+    //     Example: 88 = (16 / 2) * 11
+
+//34
+   let a1 =(100/2-16);
+    console.log(a1);
+//12
+    let a2 =4*4-4;
+    console.log(a2);
+//66
+   let a3 =100-40+6;
+    console.log(a3);
+//90
+    let a4 =5*20-10;
+    console.log(a4);
+//87
+    let a5 =9*9+6;
+    console.log(a5);
+    //3.  Створіть змінні a6, a7, a8, a9, a10. Запишіть в них результати виразів:
+// 5 % 3,
+// 3 % 5,
+// 5 + '3',
+// '5' - 3,
+// 75 + 'кг'
+    // 5 % 3,
+    let a6 = 5%3;
+    console.log(a6);  //2
+
+    // 3 % 5,
+    let a7 = 3%5;
+   console.log(a7);  //3
+
+    // 5 + '3'
+    let a8 = 5+'3';
+    console.log(a8);//53
+
+    // '5' - 3,
+    let a9 = 5-3;
+    console.log(a9);//2
+
+    // 75 + 'кг'
+    let a10 = 75+'кг';
+    console.log(a10);//75кг
+// 4. Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
+//     Значееня площі зберігати в змінній s.
+    let height = 23;
+    let width = 10;
+    function area ( height, width ){
+        let result =  height * width ;
+        return result;
+    }
+    let s = area ( height, width );
+    console.log(s); // 230 m2
+//5.  Напиши код, который находит объем цилиндра высотой 10м (переменная heightC) и диаметром основания 4м (dC),
+// результат поместите в переменную v.
+    let height2 = 10;
+    let diametr2 = 4;
+    function volume ( height2, diametr2) {
+        let result2 = 3.14*(diametr2/2)*(diametr2/2)*height2;
+        return result2;
+    }
+    let v = volume (height2, diametr2);
+    console.log(v); // 125,6 m3
+//6. У прямоугольного треугольника две стороны n (со значением 3) и m (со значением 4).
+//     Найдите гипотенузу k по теореме Пифагора (нужно использовать функцию Math.pow(число, степень) или оператор возведения в степень ** ).
+    let n = 3;
+    let m = 4;
+    function area2 (n, m){
+        let result3 = Math.pow(n,2) + Math.pow(m,2);
+        return result3;
+    }
+    let s2 = area2 (n, m);
+    console.log(Math.sqrt(s2)); //5
+ // 8. Вывести в окно браузера при помощи метода alert() следующие данные: Ваше ФИО, возраст, хобби (каждой на новой строки спомощью \n).
+    let name = 'Usenko Viktor Vladimirovich';
+    let old = 37;
+    let hobby = 'car';
+    window.alert(`ФИО: ${name}\n Возраст: ${old}\n Хобби: ${hobby}`);
+//9. Создать 4 переменные с использованием ключевого слова let с именами str1, str2, str3, concatenation.
+//  Переменной str1 присвоить фразу ‘Кто ‘, str2 – ‘ты ‘, str3 – ‘такой?’
+//  Локальной переменной concatenation присвоить результат конкатенации 3-х строк: str1, str2, str3.
+//  Вывести в документ содержимое переменной concatenation спомощью document.write
+    let str1 = 'Кто';
+    let str2 = 'ты';
+    let str3 = 'такой?';
+    let concatenation = `<h4> ${str1} ${str2} ${str3} </h4>`;
+    document.write(concatenation);
+//10. Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+// let str = "20";
+// let a = 5;
+// document.write(str + a + "<br/>");           string + num = 205 при сумме в стринг , при остальных - в число
+// document.write(str - a + "<br/>");           string - num = 15
+// document.write(str * "2" + "<br/>");         string*string= 40
+// document.write(str / 2 + "<br/>");           string/num = 10
+
+//13. С помощью окна ввода, вызываемого методом prompt, сделать сложение двух чисел, а вывод результата при помощи метода alert
+    let x = +prompt('Ведите рост');
+    let y = +prompt('Ведите вес');
+    let happy = x+y;
+    window.alert(`Поздравляю,  у Вас   ${happy} eдениц счастья `);
+
+//14. С помощью окна ввода, вызываемого методом prompt, пользователь последовательно выводит имя, фамилию и возраст, а вам не обходимо вывести строку такого вида
+//     Доброго вечера Иван Иванов, мои поздравления что вам 32 , а вывод результата при помощи метода alert
+    let name2 = prompt('Ведите имя');
+    let secondname = prompt('Ведите фамилию');
+    let age = prompt('Ведите возраст');
+    window.alert(`Доброго вечера ${name2} ${secondname}, мои поздравления что вам ${age}`);
+
+    </script>
+</body>
+</html>
