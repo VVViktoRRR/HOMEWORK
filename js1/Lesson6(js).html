@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="">
+    <title>Lesson6.js</title>
+</head>
+<body>
+<script>
+// 1 - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+// Вивести кожну змінну за допомогою: console.log ,  document.write
+    let a = 'hello';
+        console.log(a);
+        document.write('<h2>'+ a + '</h2>');
+    let b = 'owu';
+        console.log(b);
+        document.write('<h2>'+ b + '</h2>');
+    let c = 'com';
+        console.log(c);
+        document.write('<h2>'+ c + '</h2>');
+    let d = 'ua';
+        console.log(d);
+        document.write('<h2'+ d + '</h2>');
+    let e = '1';
+        console.log(e);
+        document.write('<h2>'+ e + '</h2>');
+    let f = '10';
+        console.log(f);
+        document.write('<h2>'+ f + '</h2>');
+    let g = -999;
+        console.log(g);
+        document.write('<h2>'+ g + '</h2>');
+    let h = 123;
+        console.log(h);
+        document.write('<h2>'+ h + '</h2>');
+    let j = 3.14;
+        console.log(j);
+        document.write('<h2>'+ j + '</h2>');
+    let k = 2.7;
+        console.log(k);
+        document.write('<h2>'+ k + '</h2>');
+    let l = 16;
+        console.log(l);
+        document.write('<h2>'+ l + '</h2>');
+    let z = true;
+        console.log(z);
+        document.write('<h2>'+ z + '</h2>');
+    let x = false;
+        console.log(x);
+        document.write('<h2>'+ x + '</h2>');
+// 2 - Переприсвоїти кожну змінну з завдання вище на будь які довільні значення.
+// Вивести кожну змінну за допомогою: console.log , document.write
+        a ='my';
+                console.log(a);
+                document.write(`<h2> ${a} </h2>`);
+        b ='name';
+                console.log(b);
+                document.write(`<h2> ${b} </h2>`);
+        c= 'is';
+                console.log(c);
+                document.write(`<h2> ${c} </h2>`);
+        d = 'Viktor';
+                console.log(d);
+                document.write(`<h2> ${d} </h2>`);
+        e='i';
+                console.log(e);
+                document.write(`<h2> ${e} </h2>`);
+        f='live';
+                console.log(f);
+                document.write(`<h2> ${f} </h2>`);
+        g='in';
+                console.log(g);
+                document.write(`<h2> ${g} </h2>`);
+        h='Odessa';
+                console.log(h);
+                document.write(`<h2> ${h} </h2>`);
+        j='my';
+                console.log(j);
+                document.write(`<h2> ${j} </h2>`);
+        k='age';
+                console.log(k);
+                document.write(`<h2> ${k} </h2>`);
+        l=37;
+                console.log(l);
+                document.write(`<h2> ${l} </h2>`);
+        z='year';
+                console.log(z);
+                document.write(`<h2> ${z} </h2>`);
+        x=2021;
+                console.log(x);
+                document.write(`<h2> ${x} </h2>`);
+// 3  Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. Зконкатенувати їх в одну змінну person.
+    let firstName = 'Viktor';
+    let middleName = 'Vladimirovich';
+    let lastName = 'Usenko';
+    let person=`<h4>${firstName} ${middleName} ${lastName}</h4>`;
+    let person2= 'Viktor' +' ' + 'Vladimirovich' +' ' + 'Usenko';
+    console.log(person);
+    document.write(person);
+    console.log(person2);
+    document.write(person2);
+//4 За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+// Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+//     let n =prompt('Імя');
+//     let s = prompt('По-Батькові');
+//     let age = prompt('взраст');
+//         console.log(`<h3>"Вітаю ${n} ${s}. Тобі ${age} років"</h3>`);
+//         document.write(`<h3>"Вітаю ${n} ${s}. Тобі ${age} років"</h3>`);
+//5  За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+// let a = 100; let b = '100'; let c = true;
+let a1 = 100;
+let b1 = '100';
+let c1 = true;
+console.log(typeof a1);
+console.log(typeof b1);
+console.log(typeof c1);
+//6   Поставет відповідний оператор в виразах що б вийшов відповідний результат.
+// В однакових виразаї не використовувати однакові оператори!!!
+// 5 ? 6 -> true
+// 5 ? 6 -> false
+// 5 ? 6 -> false
+// 5 ? 6 -> false
+// 10 ? 10 -> true
+// 10 ? 10 -> true
+// 10 ? 10 -> false
+// 10 ? 10 -> false
+// 10 ? 10 -> false
+// 123 ? '123' -> false
+// 123 ? '123' -> true
+let trust = true;
+console.log(trust);
+trust = 5 < 6;
+console.log(trust);
+trust = 5 > 6;
+console.log(trust);
+trust = 5==6;
+console.log(trust);
+trust = 5 === 6;
+console.log(trust);
+trust = 10==10;
+console.log(trust);
+trust = 10===10;
+console.log(trust);
+trust = 10>10;
+console.log(trust);
+trust = 10<10;
+console.log(trust);
+trust = 10!=10;
+console.log(trust);
+trust = 123 >'123';
+console.log(trust);
+trust = 123 =='123';
+console.log(trust);
+
+</script>
+</body>
+</html>
