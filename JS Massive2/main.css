@@ -1,0 +1,30 @@
+.user {
+   border: 2px solid red;
+   background: silver;
+   margin: 5px;
+}
+.img{
+   width: 200px;
+   margin-left: 10px;
+}
+.user2 {
+   border: 2px solid blue;
+   background: cornflowerblue;
+   margin: 5px;
+   }
+.user3 {
+   border: 2px solid darkblue;
+   background: cyan;
+   margin: 5px;
+}
+.product-card{
+   border: 2px solid darkblue;
+}
+.product-title{
+   font-size: 50px;
+   color: midnightblue;
+}
+.product-image{
+   width: 250px;
+
+}
