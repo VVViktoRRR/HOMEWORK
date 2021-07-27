@@ -1,11 +1,11 @@
 // - Напишіть код,  який за допомоги document.getElementById або document.getElementsByClassName або document.getElementsByTagName :
 // -- отримує текст з параграфа з id "content"
 document.getElementById('content');
-console.log(content);
+console.log(content.innerText);
 
 // -- отримує текст з блоку з id "rules"
 document.getElementById('rules');
-console.log(rules);
+console.log(rules.innerText);
 
 // -- замініть текст параграфа з id 'content' на будь-який інший
 
@@ -37,7 +37,7 @@ for (const classListElement of classLists) {
 }
 // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
 document.getElementById('rules');
-console.log(rules.innerText);
+console.log(rules);
 
 // -- отримати всі елементи з класом fc_rules. визначити їм 2 події "клік", одна вивдоить текст елементу, інша довільний ьексь
 let classLists2 = document.getElementsByClassName('fc_rules');
